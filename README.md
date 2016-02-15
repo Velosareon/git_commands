@@ -24,7 +24,7 @@ $ git remote set-url origin git@github.com:yourUsername/yourReponame.git
 $ git init # initialize your git repository locally
 $ git add . # adds everything changed from local to staging
 $ git commit -m "first commit" # commit to local git repo
-$ git remote add origin https://github.com/quinnliu/GitCommands.git
+$ git remote add origin https://github.com/konopoly/git_commands.git
 $ git push origin master # push repo to Github
 # put in a username & password
 ```
