@@ -54,6 +54,7 @@ $ git pull # in master branch get the latest version of the repo
 $ git branch # show the current branch
 $ git branch -a # list all branches in working folder  
 $ git branch newBranchName # creates a new branch, copies code from current branch
+$ git checkout -b branch_name # creates a new branch named 'branch_name'
 $ git checkout newBranchName # switch to branch newBranchName
 # makes changes to the code
 $ git add -A
