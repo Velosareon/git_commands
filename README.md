@@ -23,6 +23,8 @@ $ git remote set-url origin git@github.com:yourUsername/yourReponame.git
 # navigated into your folder you want to put on Github
 $ git init # initialize your git repository locally
 $ git add . # adds everything changed from local to staging
+
+
 $ git commit -m "first commit" # commit to local git repo
 $ git remote add origin https://github.com/konopoly/git_commands.git
 $ git push origin master # push repo to Github
@@ -84,3 +86,9 @@ $ git push origin oldBranchName
 $ git branch -D newBranchName # deletes local branch newBranchName
 $ git push origin --delete newBranchName # deletes remote branch newBranchName
 ```
+
+# rename a branch locally and remotely
+$ git checkout oldBranchName
+$ git branch -m newBranchName
+$ git push origin :oldBranchName newBranchName
+$ git push origin -u newBranchName
