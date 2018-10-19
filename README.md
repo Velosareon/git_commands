@@ -9,6 +9,7 @@ $ git commit -m "message"
 # First generate SSH key on your local machine, add it to Github account.
 # https://help.github.com/articles/generating-ssh-keys
 $ git remote set-url origin git@github.com:yourUsername/yourReponame.git
+# As a shortcut to git add and git commit, you can use git commit -a or combined with -m, commit -am "message"
 ```
 
 ### No more username & password input for every push
