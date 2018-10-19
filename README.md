@@ -71,7 +71,7 @@ $ git commit
 $ git push  # push newBranchName up to Github
 
 #in Github
-# create pull request
+# create a pull request
 # when your code is approved, that person will Merge pull request
 # your branch will be merged with master branch
 
